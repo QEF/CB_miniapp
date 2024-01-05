@@ -1,0 +1,25 @@
+#How to run this:
+
+#first configure. 
+./configure
+
+#then make dependencies
+cd install; ./makedeps.sh; cd ../
+
+#then actually make the CB toy dft code
+make cb
+
+#testing the workings of the code is currently via examples,
+#not tests
+cd CB_toy_code/examples
+#this script tests by default tests six executables that should now be in ../../bin
+#cb_cg cb_cg_gamma cb_davidson cb_davidson_gamma cb_ppcg cb_ppcg_gamma
+#with serial configuration, using all the inputs in the examples directory
+./run_all_examples
+
+
+
+
+
+
+
