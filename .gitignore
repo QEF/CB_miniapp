@@ -1,0 +1,76 @@
+
+*~
+*.a
+*.mod
+*.o
+*.x
+
+# /
+/make.inc
+
+# libraries
+SCALAPACK
+LAPACK
+lapack-3.6.1
+ELPA
+scalapack*
+elsi-interface*
+elpa.txt
+UFFA
+
+# /bin
+/bin
+
+# /CB_toy_code/src
+/CB_toy_code/src/*.a
+/CB_toy_code/src/*.mod
+/CB_toy_code/src/*.o
+/CB_toy_code/src/cb_davidson.x
+/CB_toy_code/src/cb_davidson_gamma.x
+/CB_toy_code/src/cb_davidson_rci.x
+/CB_toy_code/src/cb_cg.x
+/CB_toy_code/src/cb_cg_gamma.x
+
+# /clib
+/clib/*.a
+/clib/*.o
+
+# /FFTXlib
+/FFTXlib/*.a
+/FFTXlib/*.mod
+/FFTXlib/*.o
+
+# /include
+/include/c_defs.h
+/include/configure.h
+/include/fft_defs.h
+
+# /install
+/install/config.log
+/install/config.status
+/install/configure.msg
+/install/make_lapack.inc
+/install/make_wannier90.inc
+
+# /KS_Solvers/CG
+/KS_Solvers/CG/*.a
+/KS_Solvers/CG/*.mod
+/KS_Solvers/CG/*.o
+
+# /KS_Solvers/Davidson
+/KS_Solvers/Davidson/*.a
+/KS_Solvers/Davidson/*.mod
+/KS_Solvers/Davidson/*.o
+
+# /KS_Solvers/Davidson_RCI
+/KS_Solvers/Davidson_RCI/*.a
+/KS_Solvers/Davidson_RCI/*.mod
+/KS_Solvers/Davidson_RCI/*.o
+
+# /LAXlib
+/LAXlib/*.a
+/LAXlib/*.mod
+/LAXlib/*.o
+
+.tags*
+tags
