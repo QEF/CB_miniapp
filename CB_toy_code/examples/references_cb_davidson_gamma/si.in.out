@@ -1,0 +1,18 @@
+  Gamma-only calculation, assuming nks=1, xk=(0,0,0) 
+          15          15          15        3375
+ ngm =         435
+ npwx =          57
+
+          k = 0.0000 0.0000 0.0000 (    57 PWs)   bands (ev):
+
+   -12.6369  -0.0000  -0.0000   0.0000   3.4229   3.4229   3.4229   3.8840
+ dav_iter, notcnv, ethr           10           0  9.99999999999999955E-007
+     davidson     :      0.00s CPU      0.00s WALL (       1 calls)
+     regterg      :      0.00s CPU      0.00s WALL (       1 calls)
+     regterg:init :      0.00s CPU      0.00s WALL (       1 calls)
+     regterg:diag :      0.00s CPU      0.00s WALL (      11 calls)
+     regterg:upda :      0.00s CPU      0.00s WALL (      10 calls)
+     regterg:over :      0.00s CPU      0.00s WALL (      10 calls)
+     regterg:last :      0.00s CPU      0.00s WALL (       3 calls)
+     h_psi        :      0.00s CPU      0.00s WALL (      11 calls)
+     g_psi        :      0.00s CPU      0.00s WALL (      10 calls)

@@ -1,0 +1,29 @@
+ nks >
+          15          15          15        3375
+ ngm =         869
+ npwx =         113
+  subspace rotation first
+  then cg diagonalization 
+
+          k = 0.0000 0.0000 0.0000 (   113 PWs)   bands (ev):
+
+   -12.6369   0.0000   0.0000   0.0000   3.4229   3.4229   3.4229   3.8840
+ cg_iter, notconv, ethr            0           0  9.99999999999999955E-007
+  subspace rotation first
+  then cg diagonalization 
+
+          k = 0.5000 0.5000 0.5000 (   108 PWs)   bands (ev):
+
+   -10.2593  -7.3882  -1.2491  -1.2491   1.8752   3.9800   3.9800   7.9691
+ cg_iter, notconv, ethr            0           0  9.99999999999999955E-007
+  subspace rotation first
+  then cg diagonalization 
+
+          k = 1.0000 0.0000 0.0000 (   108 PWs)   bands (ev):
+
+    -8.3557  -8.3557  -3.0211  -3.0211   0.9305   0.9305  12.1582  12.1582
+ cg_iter, notconv, ethr            0           0  9.99999999999999955E-007
+     cg           :      0.02s CPU      0.02s WALL (       3 calls)
+     h_psi        :      0.00s CPU      0.00s WALL (       3 calls)
+     hs_1psi      :      0.01s CPU      0.01s WALL (     275 calls)
+     s_1psi       :      0.00s CPU      0.00s WALL (     275 calls)

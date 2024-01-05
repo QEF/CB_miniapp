@@ -1,0 +1,30 @@
+ parallel defs            1           0
+  Gamma-only calculation, assuming nks=1, xk=(0,0,0) 
+          25          25          25       15625
+ ngm =        2533
+ npwx =         323
+  subspace rotation first
+ ndiag           1
+  then paro diagonalization 
+
+          k = 0.0000 0.0000 0.0000 (   323 PWs)   bands (ev):
+
+     0.0000   4.5123   4.5123   4.5123   4.5123   4.5123   4.5123   4.5123
+     4.5123   6.0164   6.0164   6.0164   6.0164   6.0164   6.0164  12.0329
+    12.0329  12.0329  12.0329  12.0329  12.0329  12.0329  12.0329  12.0329
+    12.0329  12.0329  12.0329  16.5452  16.5452  16.5452  16.5452  16.5452
+    16.5452  16.5452  16.5452  16.5452  16.5452  16.5452  16.5452  16.5452
+    16.5452  16.5452  16.5452  16.5452  16.5452  16.5452  16.5452  16.5452
+    16.5452  16.5452  16.5452  18.0493  18.0493  18.0493  18.0493  18.0493
+    18.0493  18.0493  18.0493  24.0657  24.0657  24.0657  24.0657  24.0657
+ avg_iter, notconv, ethr           23           0   9.9999999999999995E-007
+     paro         :      0.64s CPU      0.66s WALL (       1 calls)
+     rotwfcg      :      0.37s CPU      0.37s WALL (       6 calls)
+     rotwfcg:hpsi :      0.19s CPU      0.20s WALL (       6 calls)
+     rotwfcg:hc   :      0.11s CPU      0.11s WALL (       6 calls)
+     rotwfcg:diag :      0.03s CPU      0.04s WALL (       6 calls)
+     rotwfcg:evc  :      0.03s CPU      0.03s WALL (       6 calls)
+     pcg          :      0.27s CPU      0.29s WALL (     277 calls)
+     pcg:hs_1psi  :      0.22s CPU      0.23s WALL (     853 calls)
+     pcg:ortho    :      0.04s CPU      0.05s WALL (     853 calls)
+     s_psi        :      0.00s CPU      0.00s WALL (       5 calls)

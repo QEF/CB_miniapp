@@ -1,0 +1,5 @@
+ &system crystal_name='free', ecutwfc = 8.d0, energy_shift=.false. /
+3
+0.0 0.0 0.0
+0.5 0.5 0.5
+1.0 0.0 0.0

@@ -1,0 +1,15 @@
+  Gamma-only calculation, assuming nks=1, xk=(0,0,0) 
+          15          15          15        3375
+ ngm =         435
+ npwx =          57
+  subspace rotation first
+  then cg diagonalization 
+
+          k = 0.0000 0.0000 0.0000 (    57 PWs)   bands (ev):
+
+   -12.6369  -0.0000  -0.0000   0.0000   3.4229   3.4229   3.4230   3.8839
+ cg_iter, notconv, ethr            0           0  9.99999999999999955E-007
+     cg           :      0.00s CPU      0.01s WALL (       1 calls)
+     h_psi        :      0.00s CPU      0.00s WALL (       1 calls)
+     hs_1psi      :      0.00s CPU      0.01s WALL (      95 calls)
+     s_1psi       :      0.00s CPU      0.00s WALL (      95 calls)

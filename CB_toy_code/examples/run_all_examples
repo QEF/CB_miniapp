@@ -1,0 +1,48 @@
+#!/bin/sh
+
+# run from directory where this script is
+cd `echo $0 | sed 's/\(.*\)\/.*/\1/'` # extract pathname
+EXAMPLE_DIR=`pwd`
+# check whether echo has the -e option
+if test "`echo -e`" = "-e" ; then ECHO=echo ; else ECHO="echo -e" ; fi
+
+$ECHO
+$ECHO "run_all_examples: starting"
+
+PARA_PREFIX=" "
+PARA_POSTFIX=" "
+#PARA_PREFIX="mpirun -np 4"
+#PARA_POSTFIX=" -nk 1 -nd 4 -nb 4 -nt 1 "
+#
+# available MPI parallelization flags: 
+#                  -ni n        number of images        (or -nimage)
+#                               (only for NEB; for PHonon, see below)
+#                  -nk n        number of pools         (or -npool, -npools)
+#                  -nb n        number of band groups   (or -nbgrp,-nband_group)
+#                  -nt n        number of task groups   (or -ntg, -ntask_groups)
+#                  -nd n        number of processors for linear algebra 
+#                                                       (or -ndiag, -northo) 
+#
+
+BIN_DIR="$EXAMPLE_DIR/../../bin"
+BIN_LIST="cb_cg cb_cg_gamma cb_davidson cb_davidson_gamma cb_ppcg cb_ppcg_gamma cb_paro cb_paro_gamma cb_paro_new cb_paro_gamma_new"
+
+for j in $BIN_LIST 
+do
+    $ECHO " ************************************************************"
+    $ECHO " ************************************************************"
+    $ECHO " executable being tested is $j "
+    cd $EXAMPLE_DIR
+    mkdir -p results_$j
+    for i in ./*in 
+    do
+         $ECHO "      running example: $i ... \c"
+         $PARA_PREFIX $BIN_DIR/$j.x $PARA_POSTFIX < $i > results_$j/$i.out
+         $ECHO "  done! "
+    done
+    $ECHO "      Done with executable $j - here are differences from reference"
+    diff results_$j references_$j
+done
+
+$ECHO "run_all_examples: done"
+

@@ -1,0 +1,29 @@
+ parallel defs            1           0
+ nks >
+          27          27          27       19683
+ ngm =        6615
+ npwx =         869
+  subspace rotation first
+ ndiag           1
+  then ppcg diagonalization 
+
+          k = 0.0000 0.0000 0.0000 (   869 PWs)   bands (ev):
+
+   -12.6369 -10.2593 -10.2593 -10.2593 -10.2593  -8.3557  -8.3557  -8.3557
+    -8.3557  -8.3557  -8.3557  -7.3882  -7.3882  -7.3882  -7.3882  -3.0211
+    -3.0211  -3.0211  -3.0211  -3.0211  -3.0211  -1.2491  -1.2491  -1.2491
+    -1.2491  -1.2491  -1.2491  -1.2491  -1.2491  -0.0000  -0.0000   0.0000
+     0.9305   0.9305   0.9305   0.9305   0.9305   0.9305   1.8752   1.8752
+     1.8752   1.8752   3.4229   3.4229   3.4229   3.8840   3.9800   3.9800
+     3.9800   3.9800   3.9800   3.9800   3.9800   3.9800   7.5397   7.9683
+     7.9683   7.9691   7.9691   7.9691   7.9691  11.5026  11.5026  11.5026
+ ppcg_iter, notconv, ethr            0           0   9.9999999999999995E-007
+     ppcg         :      1.51s CPU      1.55s WALL (       1 calls)
+     ppcg_k       :      1.46s CPU      1.50s WALL (       1 calls)
+     h_psi        :      0.45s CPU      0.49s WALL (      28 calls)
+     ppcg:zgemm   :      0.73s CPU      0.73s WALL (    1507 calls)
+     ppcg:hpsi    :      0.43s CPU      0.47s WALL (      27 calls)
+     ppcg:cholQR  :      0.12s CPU      0.11s WALL (      23 calls)
+     ppcg:RR      :      0.12s CPU      0.12s WALL (       4 calls)
+     ppcg:ZTRSM   :      0.03s CPU      0.04s WALL (      23 calls)
+     ppcg:lock    :      0.00s CPU      0.00s WALL (       5 calls)

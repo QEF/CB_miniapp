@@ -1,0 +1,31 @@
+ parallel defs            1           0
+  Gamma-only calculation, assuming nks=1, xk=(0,0,0) 
+          27          27          27       19683
+ ngm =        3308
+ npwx =         435
+ ** TEST:  CB hamiltonian modified so as to need an overlap matrix **
+  subspace rotation first
+ ndiag           1
+  then paro diagonalization 
+
+          k = 0.0000 0.0000 0.0000 (   435 PWs)   bands (ev):
+
+   -12.6369 -10.2593 -10.2593 -10.2593 -10.2593  -8.3557  -8.3557  -8.3557
+    -8.3557  -8.3557  -8.3557  -7.3882  -7.3882  -7.3882  -7.3882  -3.0211
+    -3.0211  -3.0211  -3.0211  -3.0211  -3.0211  -1.2491  -1.2491  -1.2491
+    -1.2491  -1.2491  -1.2491  -1.2491  -1.2491  -0.0000  -0.0000   0.0000
+     0.9305   0.9305   0.9305   0.9305   0.9305   0.9305   1.8752   1.8752
+     1.8752   1.8752   3.4229   3.4229   3.4229   3.8840   3.9800   3.9800
+     3.9800   3.9800   3.9800   3.9800   3.9800   3.9800   7.5397   7.9683
+     7.9683   7.9691   7.9691   7.9691   7.9691  11.5026  11.5026  11.5026
+ avg_iter, notconv, ethr           35           0   9.9999999999999995E-007
+     paro         :      1.56s CPU      1.59s WALL (       1 calls)
+     rotwfcg      :      0.78s CPU      0.79s WALL (       8 calls)
+     rotwfcg:hpsi :      0.46s CPU      0.48s WALL (       8 calls)
+     rotwfcg:hc   :      0.21s CPU      0.21s WALL (       8 calls)
+     rotwfcg:diag :      0.06s CPU      0.05s WALL (       8 calls)
+     rotwfcg:evc  :      0.05s CPU      0.05s WALL (       8 calls)
+     pcg          :      0.78s CPU      0.79s WALL (     363 calls)
+     pcg:hs_1psi  :      0.64s CPU      0.66s WALL (    1343 calls)
+     pcg:ortho    :      0.11s CPU      0.11s WALL (    1343 calls)
+     s_psi        :      0.02s CPU      0.01s WALL (      15 calls)

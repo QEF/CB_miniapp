@@ -1,0 +1,29 @@
+ parallel MPI defs : np=           1 nb=           1   nd=           0
+  Gamma-only calculation, assuming nks=1, xk=(0,0,0) 
+          15          15          15        3375
+ ngm =         323
+ npwx =          33
+  subspace rotation first
+ ndiag           1
+  then cg diagonalization 
+
+          k = 0.0000 0.0000 0.0000 (    33 PWs)   bands (ev):
+
+     0.0000  18.0493  18.0493  18.0493  18.0493  18.0493  18.0493  18.0493
+ cg_iter, nhpsi, notconv, ethr            6          57           0   9.9999999999999995E-007
+     cg           :      0.00s CPU      0.00s WALL (       1 calls)
+     rotwfcg      :      0.00s CPU      0.00s WALL (       1 calls)
+     rotwfcg:hpsi :      0.00s CPU      0.00s WALL (       1 calls)
+     rotwfcg:hc   :      0.00s CPU      0.00s WALL (       1 calls)
+     rotwfcg:diag :      0.00s CPU      0.00s WALL (       1 calls)
+     rotwfcg:evc  :      0.00s CPU      0.00s WALL (       1 calls)
+     rcgdiagg     :      0.00s CPU      0.00s WALL (       1 calls)
+     cg:ortho     :      0.00s CPU      0.00s WALL (      49 calls)
+     h_psi        :      0.00s CPU      0.00s WALL (       1 calls)
+     hs_1psi      :      0.00s CPU      0.00s WALL (      49 calls)
+     s_1psi       :      0.00s CPU      0.00s WALL (      49 calls)
+
+  general FFT  routines
+     fftw         :      0.00s CPU      0.00s WALL (     114 calls)
+     ffts         :      0.00s CPU      0.00s WALL
+

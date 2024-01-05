@@ -1,0 +1,32 @@
+ parallel MPI defs : np=           1 nb=           1   nd=           0
+ nks >
+          25          25          25       15625
+ ngm =        5065
+ npwx =         645
+ ndiag           1
+
+          k = 0.0000 0.0000 0.0000 (   645 PWs)   bands (ev):
+
+     0.0000   4.5123   4.5123   4.5123   4.5123   4.5123   4.5123   4.5123
+     4.5123   6.0164   6.0164   6.0164   6.0164   6.0164   6.0164  12.0329
+    12.0329  12.0329  12.0329  12.0329  12.0329  12.0329  12.0329  12.0329
+    12.0329  12.0329  12.0329  16.5452  16.5452  16.5452  16.5452  16.5452
+    16.5452  16.5452  16.5452  16.5452  16.5452  16.5452  16.5452  16.5452
+    16.5452  16.5452  16.5452  16.5452  16.5452  16.5452  16.5452  16.5452
+    16.5452  16.5452  16.5452  18.0493  18.0493  18.0493  18.0493  18.0493
+    18.0493  18.0493  18.0493  24.0657  24.0657  24.0657  24.0657  24.0657
+ dav_iter, nhpsi, notcnv, ethr            5         319           0   9.9999999999999995E-007
+     davidson     :      0.48s CPU      0.48s WALL (       1 calls)
+     cegterg      :      0.48s CPU      0.48s WALL (       1 calls)
+     cegterg:init :      0.01s CPU      0.01s WALL (       1 calls)
+     cegterg:diag :      0.15s CPU      0.15s WALL (       6 calls)
+     cegterg:upda :      0.07s CPU      0.07s WALL (       5 calls)
+     cegterg:over :      0.10s CPU      0.11s WALL (       5 calls)
+     cegterg:last :      0.05s CPU      0.05s WALL (       2 calls)
+     h_psi        :      0.10s CPU      0.10s WALL (       6 calls)
+     g_psi        :      0.00s CPU      0.00s WALL (       5 calls)
+
+  general FFT  routines
+     fftw         :      0.08s CPU      0.08s WALL (     638 calls)
+     ffts         :      0.00s CPU      0.00s WALL
+

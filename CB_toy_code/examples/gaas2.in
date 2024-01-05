@@ -1,0 +1,3 @@
+ &system crystal_name='GaAs', ecutwfc =8.d0, ethr=1.d-6, ncell=2, david=3 /
+1
+0.0 0.0 0.0

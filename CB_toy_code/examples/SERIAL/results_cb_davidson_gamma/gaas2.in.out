@@ -1,0 +1,33 @@
+ parallel MPI defs : np=           1 nb=           1   nd=           0
+  Gamma-only calculation, assuming nks=1, xk=(0,0,0) 
+          27          27          27       19683
+ ngm =        3696
+ npwx =         471
+ ndiag           1
+ enter regterg
+
+          k = 0.0000 0.0000 0.0000 (   471 PWs)   bands (ev):
+
+   -12.3426 -10.9110 -10.9110 -10.9110 -10.9110 -10.3192 -10.3192 -10.3192
+    -6.1510  -6.1510  -6.1510  -6.0410  -6.0410  -6.0410  -6.0410  -2.2895
+    -2.2895  -2.2895  -2.2895  -2.2895  -2.2895  -0.9216  -0.9216  -0.9216
+    -0.9216  -0.9216  -0.9216  -0.9216  -0.9216  -0.0000  -0.0000   0.0000
+     1.1834   1.5673   1.5673   1.5673   1.5673   1.5989   1.5989   1.5989
+     2.0916   2.0916   2.0916   4.4167   4.4167   4.4167   4.9092   4.9092
+     4.9092   4.9092   4.9092   4.9092   4.9092   4.9092   8.0684   8.5455
+     8.5455   8.5455   8.5455   8.6861   8.6861  11.4378  11.4378  11.4379
+ dav_iter, nhpsi, notcnv, ethr           20         548           2   9.9999999999999995E-007
+     davidson     :      0.74s CPU      0.75s WALL (       1 calls)
+     regterg      :      0.74s CPU      0.75s WALL (       1 calls)
+     regterg:init :      0.01s CPU      0.01s WALL (       1 calls)
+     regterg:diag :      0.22s CPU      0.21s WALL (      21 calls)
+     regterg:upda :      0.05s CPU      0.05s WALL (      20 calls)
+     regterg:over :      0.14s CPU      0.14s WALL (      20 calls)
+     regterg:last :      0.05s CPU      0.04s WALL (       4 calls)
+     h_psi        :      0.27s CPU      0.28s WALL (      21 calls)
+     g_psi        :      0.00s CPU      0.00s WALL (      20 calls)
+
+  general FFT  routines
+     fftw         :      0.24s CPU      0.25s WALL (    1096 calls)
+     ffts         :      0.00s CPU      0.00s WALL
+

@@ -1,0 +1,40 @@
+ parallel defs            1           0
+ nks >
+          15          15          15        3375
+ ngm =         941
+ npwx =         120
+ ** TEST:  CB hamiltonian modified so as to need an overlap matrix **
+  subspace rotation first
+ ndiag           1
+  then ppcg diagonalization 
+
+          k = 0.0000 0.0000 0.0000 (   113 PWs)   bands (ev):
+
+   -12.3426  -0.0000  -0.0000   0.0000   1.1834   4.4167   4.4167   4.4167
+ ppcg_iter, notconv, ethr            0           0   9.9999999999999995E-007
+  subspace rotation first
+ ndiag           1
+  then ppcg diagonalization 
+
+          k = 0.5000 0.5000 0.5000 (   120 PWs)   bands (ev):
+
+   -10.9110  -6.0410  -0.9216  -0.9216   1.5673   4.9092   4.9092   8.5455
+ ppcg_iter, notconv, ethr            0           0   9.9999999999999995E-007
+  subspace rotation first
+ ndiag           1
+  then ppcg diagonalization 
+
+          k = 1.0000 0.0000 0.0000 (   116 PWs)   bands (ev):
+
+   -10.3192  -6.1510  -2.2895  -2.2895   1.5989   2.0916  12.1261  12.1261
+ ppcg_iter, notconv, ethr            0           0   9.9999999999999995E-007
+     ppcg         :      0.04s CPU      0.04s WALL (       3 calls)
+     ppcg_k       :      0.04s CPU      0.04s WALL (       3 calls)
+     h_psi        :      0.01s CPU      0.02s WALL (      56 calls)
+     s_psi        :      0.00s CPU      0.00s WALL (      56 calls)
+     ppcg:zgemm   :      0.01s CPU      0.01s WALL (    1072 calls)
+     ppcg:hpsi    :      0.01s CPU      0.02s WALL (      53 calls)
+     ppcg:cholQR  :      0.00s CPU      0.00s WALL (      44 calls)
+     ppcg:RR      :      0.01s CPU      0.00s WALL (       9 calls)
+     ppcg:ZTRSM   :      0.00s CPU      0.00s WALL (      88 calls)
+     ppcg:lock    :      0.00s CPU      0.00s WALL (      12 calls)

@@ -1,0 +1,35 @@
+ parallel MPI defs : np=           1 nb=           1   nd=           0
+  Gamma-only calculation, assuming nks=1, xk=(0,0,0) 
+          27          27          27       19683
+ ngm =        3696
+ npwx =         471
+  subspace rotation first
+ ndiag           1
+  then paro diagonalization 
+
+          k = 0.0000 0.0000 0.0000 (   471 PWs)   bands (ev):
+
+   -12.3426 -10.9110 -10.9110 -10.9110 -10.9110 -10.3192 -10.3192 -10.3192
+    -6.1510  -6.1510  -6.1510  -6.0410  -6.0410  -6.0410  -6.0410  -2.2895
+    -2.2895  -2.2895  -2.2895  -2.2895  -2.2895  -0.9216  -0.9216  -0.9216
+    -0.9216  -0.9216  -0.9216  -0.9216  -0.9216  -0.0000  -0.0000   0.0000
+     1.1834   1.5673   1.5673   1.5673   1.5673   1.5989   1.5989   1.5989
+     2.0916   2.0916   2.0916   4.4167   4.4167   4.4167   4.9092   4.9092
+     4.9092   4.9092   4.9092   4.9092   4.9092   4.9092   8.0684   8.5455
+     8.5455   8.5455   8.5455   8.6861   8.6861  11.4378  11.4378  11.4378
+ avg_iter, nhpsi, notconv, ethr           42        2771           0   9.9999999999999995E-007
+     paro         :      1.43s CPU      1.46s WALL (       1 calls)
+     rotwfcg      :      0.71s CPU      0.72s WALL (       9 calls)
+     rotwfcg:hpsi :      0.42s CPU      0.43s WALL (       9 calls)
+     rotwfcg:hc   :      0.23s CPU      0.23s WALL (       9 calls)
+     rotwfcg:diag :      0.04s CPU      0.04s WALL (       9 calls)
+     rotwfcg:evc  :      0.02s CPU      0.02s WALL (       9 calls)
+     pcg          :      0.72s CPU      0.73s WALL (     403 calls)
+     pcg:hs_1psi  :      0.60s CPU      0.61s WALL (    1626 calls)
+     pcg:ortho    :      0.11s CPU      0.11s WALL (    1626 calls)
+     s_psi        :      0.00s CPU      0.00s WALL (       8 calls)
+
+  general FFT  routines
+     fftw         :      0.96s CPU      0.97s WALL (    5420 calls)
+     ffts         :      0.00s CPU      0.00s WALL
+

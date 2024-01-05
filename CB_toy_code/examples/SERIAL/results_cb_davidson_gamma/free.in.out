@@ -1,0 +1,26 @@
+ parallel MPI defs : np=           1 nb=           1   nd=           0
+  Gamma-only calculation, assuming nks=1, xk=(0,0,0) 
+          15          15          15        3375
+ ngm =         323
+ npwx =          33
+ ndiag           1
+ enter regterg
+
+          k = 0.0000 0.0000 0.0000 (    33 PWs)   bands (ev):
+
+     0.0000  18.0493  18.0493  18.0493  18.0493  18.0493  18.0493  18.0493
+ dav_iter, nhpsi, notcnv, ethr            4          37           0   9.9999999999999995E-007
+     davidson     :      0.00s CPU      0.00s WALL (       1 calls)
+     regterg      :      0.00s CPU      0.00s WALL (       1 calls)
+     regterg:init :      0.00s CPU      0.00s WALL (       1 calls)
+     regterg:diag :      0.00s CPU      0.00s WALL (       5 calls)
+     regterg:upda :      0.00s CPU      0.00s WALL (       4 calls)
+     regterg:over :      0.00s CPU      0.00s WALL (       4 calls)
+     regterg:last :      0.00s CPU      0.00s WALL (       2 calls)
+     h_psi        :      0.00s CPU      0.00s WALL (       5 calls)
+     g_psi        :      0.00s CPU      0.00s WALL (       4 calls)
+
+  general FFT  routines
+     fftw         :      0.00s CPU      0.00s WALL (      74 calls)
+     ffts         :      0.00s CPU      0.00s WALL
+

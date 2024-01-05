@@ -1,0 +1,20 @@
+ parallel MPI defs : np=           1 nb=           1   nd=           0
+  Gamma-only calculation, assuming nks=1, xk=(0,0,0) 
+          15          15          15        3375
+ ngm =         471
+ npwx =          57
+
+          k = 0.0000 0.0000 0.0000 (    57 PWs)   bands (ev):
+
+   -12.3426  -0.0000  -0.0000   0.0000   1.1834   4.4167   4.4167   4.4167
+ avg_iter, nhpsi, notconv, ethr           10          85           0   9.9999999999999995E-007
+     paro         :      0.01s CPU      0.01s WALL (       1 calls)
+     pcg          :      0.00s CPU      0.00s WALL (       9 calls)
+     pcg:hs_1psi  :      0.00s CPU      0.00s WALL (      26 calls)
+     pcg:ortho    :      0.00s CPU      0.00s WALL (      35 calls)
+     s_psi        :      0.00s CPU      0.00s WALL (       1 calls)
+
+  general FFT  routines
+     fftw         :      0.00s CPU      0.00s WALL (     170 calls)
+     ffts         :      0.00s CPU      0.00s WALL
+

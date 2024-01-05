@@ -1,0 +1,33 @@
+#!/bin/sh
+
+# run from directory where this script is
+cd `echo $0 | sed 's/\(.*\)\/.*/\1/'` # extract pathname
+EXAMPLE_DIR=`pwd`
+# check whether echo has the -e option
+if test "`echo -e`" = "-e" ; then ECHO=echo ; else ECHO="echo -e" ; fi
+
+$ECHO
+$ECHO "run_all_examples: starting"
+
+BIN_DIR="$EXAMPLE_DIR/../../bin"
+BIN_LIST="cb_cg cb_cg_gamma cb_davidson cb_davidson_gamma cb_ppcg cb_ppcg_gamma cb_paro cb_paro_gamma"
+
+for j in $BIN_LIST 
+do
+    $ECHO " ************************************************************"
+    $ECHO " ************************************************************"
+    $ECHO " executable being tested is $j "
+    cd $EXAMPLE_DIR
+    mkdir -p results_$j
+    for i in ./*in.use_overlap
+    do
+         $ECHO "      running example: $i ... \c"
+         $BIN_DIR/$j.x < $i > results_$j/$i.out
+         $ECHO "  done! "
+    done
+    $ECHO "      Done with executable $j - here are differences from reference"
+    diff results_$j references_$j
+done
+
+$ECHO "run_all_examples: done"
+

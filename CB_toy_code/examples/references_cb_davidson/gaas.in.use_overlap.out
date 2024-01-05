@@ -1,0 +1,34 @@
+ parallel defs            1           0
+ nks >
+          15          15          15        3375
+ ngm =         941
+ npwx =         120
+ ** TEST:  CB hamiltonian modified so as to need an overlap matrix **
+ ndiag           1
+
+          k = 0.0000 0.0000 0.0000 (   113 PWs)   bands (ev):
+
+   -12.3426  -0.0000  -0.0000   0.0000   1.1834   4.4167   4.4167   4.4167
+ dav_iter, notcnv, ethr            7           0   9.9999999999999995E-007
+ ndiag           1
+
+          k = 0.5000 0.5000 0.5000 (   120 PWs)   bands (ev):
+
+   -10.9110  -6.0410  -0.9216  -0.9216   1.5673   4.9092   4.9092   8.5455
+ dav_iter, notcnv, ethr            8           0   9.9999999999999995E-007
+ ndiag           1
+
+          k = 1.0000 0.0000 0.0000 (   116 PWs)   bands (ev):
+
+   -10.3192  -6.1510  -2.2895  -2.2895   1.5989   2.0916  12.1261  12.1261
+ dav_iter, notcnv, ethr           17           0   9.9999999999999995E-007
+     davidson     :      0.02s CPU      0.02s WALL (       3 calls)
+     cegterg      :      0.02s CPU      0.02s WALL (       3 calls)
+     cegterg:init :      0.00s CPU      0.00s WALL (       3 calls)
+     cegterg:diag :      0.00s CPU      0.01s WALL (      35 calls)
+     cegterg:upda :      0.00s CPU      0.00s WALL (      32 calls)
+     cegterg:over :      0.00s CPU      0.00s WALL (      32 calls)
+     cegterg:last :      0.00s CPU      0.00s WALL (       7 calls)
+     h_psi        :      0.02s CPU      0.01s WALL (      35 calls)
+     s_psi        :      0.00s CPU      0.00s WALL (      35 calls)
+     g_psi        :      0.00s CPU      0.00s WALL (      32 calls)

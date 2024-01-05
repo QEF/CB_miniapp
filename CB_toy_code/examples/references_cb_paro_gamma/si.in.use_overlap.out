@@ -1,0 +1,24 @@
+ parallel defs            1           0
+  Gamma-only calculation, assuming nks=1, xk=(0,0,0) 
+          15          15          15        3375
+ ngm =         435
+ npwx =          57
+ ** TEST:  CB hamiltonian modified so as to need an overlap matrix **
+  subspace rotation first
+ ndiag           1
+  then paro diagonalization 
+
+          k = 0.0000 0.0000 0.0000 (    57 PWs)   bands (ev):
+
+   -12.6369  -0.0000  -0.0000   0.0000   3.4229   3.4229   3.4229   3.8840
+ avg_iter, notconv, ethr           26           0   9.9999999999999995E-007
+     paro         :      0.01s CPU      0.01s WALL (       1 calls)
+     rotwfcg      :      0.00s CPU      0.01s WALL (       6 calls)
+     rotwfcg:hpsi :      0.00s CPU      0.00s WALL (       6 calls)
+     rotwfcg:hc   :      0.00s CPU      0.00s WALL (       6 calls)
+     rotwfcg:diag :      0.00s CPU      0.00s WALL (       6 calls)
+     rotwfcg:evc  :      0.00s CPU      0.00s WALL (       6 calls)
+     pcg          :      0.01s CPU      0.01s WALL (      38 calls)
+     pcg:hs_1psi  :      0.00s CPU      0.01s WALL (     129 calls)
+     pcg:ortho    :      0.00s CPU      0.00s WALL (     129 calls)
+     s_psi        :      0.00s CPU      0.00s WALL (      11 calls)

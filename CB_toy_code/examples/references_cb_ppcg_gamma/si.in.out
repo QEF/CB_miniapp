@@ -1,0 +1,22 @@
+ parallel defs            1           0
+  Gamma-only calculation, assuming nks=1, xk=(0,0,0) 
+          15          15          15        3375
+ ngm =         435
+ npwx =          57
+  subspace rotation first
+ ndiag           1
+  then ppcg diagonalization 
+
+          k = 0.0000 0.0000 0.0000 (    57 PWs)   bands (ev):
+
+   -12.6369  -0.0000  -0.0000   0.0000   3.4229   3.4229   3.4229   3.8840
+ ppcg_iter, notconv, ethr            0           0   9.9999999999999995E-007
+     ppcg         :      0.01s CPU      0.01s WALL (       1 calls)
+     ppcg_gamma   :      0.01s CPU      0.01s WALL (       1 calls)
+     h_psi        :      0.00s CPU      0.00s WALL (      12 calls)
+     ppcg:dgemm   :      0.00s CPU      0.00s WALL (     203 calls)
+     ppcg:hpsi    :      0.00s CPU      0.00s WALL (      11 calls)
+     ppcg:cholQR  :      0.00s CPU      0.00s WALL (       9 calls)
+     ppcg:RR      :      0.00s CPU      0.00s WALL (       2 calls)
+     ppcg:DTRSM   :      0.00s CPU      0.00s WALL (       9 calls)
+     ppcg:lock    :      0.00s CPU      0.00s WALL (       3 calls)

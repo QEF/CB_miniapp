@@ -1,0 +1,40 @@
+ parallel defs            1           0
+ nks >
+          15          15          15        3375
+ ngm =         869
+ npwx =         113
+ ** TEST:  CB hamiltonian modified so as to need an overlap matrix **
+  subspace rotation first
+ ndiag           1
+  then paro diagonalization 
+
+          k = 0.0000 0.0000 0.0000 (   113 PWs)   bands (ev):
+
+   -12.6369  -0.0000  -0.0000   0.0000   3.4229   3.4229   3.4229   3.8840
+ avg_iter, notconv, ethr           30           0   9.9999999999999995E-007
+  subspace rotation first
+ ndiag           1
+  then paro diagonalization 
+
+          k = 0.5000 0.5000 0.5000 (   108 PWs)   bands (ev):
+
+   -10.2593  -7.3882  -1.2491  -1.2491   1.8752   3.9800   3.9800   7.9691
+ avg_iter, notconv, ethr           54           0   9.9999999999999995E-007
+  subspace rotation first
+ ndiag           1
+  then paro diagonalization 
+
+          k = 1.0000 0.0000 0.0000 (   108 PWs)   bands (ev):
+
+    -8.3557  -8.3557  -3.0211  -3.0211   0.9305   0.9305  12.1582  12.1582
+ avg_iter, notconv, ethr           91           0   9.9999999999999995E-007
+     paro         :      0.06s CPU      0.06s WALL (       3 calls)
+     rotwfck      :      0.01s CPU      0.02s WALL (      21 calls)
+     rotwfck:hpsi :      0.01s CPU      0.02s WALL (      21 calls)
+     rotwfck:hc   :      0.00s CPU      0.00s WALL (      21 calls)
+     rotwfck:diag :      0.00s CPU      0.00s WALL (      21 calls)
+     rotwfck:evc  :      0.00s CPU      0.00s WALL (      21 calls)
+     pcg          :      0.04s CPU      0.03s WALL (     124 calls)
+     pcg:hs_1psi  :      0.03s CPU      0.03s WALL (     441 calls)
+     pcg:ortho    :      0.01s CPU      0.00s WALL (     441 calls)
+     s_psi        :      0.00s CPU      0.00s WALL (      39 calls)
